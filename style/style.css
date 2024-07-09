@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+/* ---banner--- */
+
+#ban_hero {
+  height: 680px;
+  background-image: url(../image/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+
+.ban_content {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.hacker {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bolder;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0d1321;
+}
+
+.ban_pra {
+  Font-weight: 400;
+  Font-size: 16px;
+  color: #555759;
+}
+
+.Surprise_btn a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Surprise_btn {
+  padding: 18px 25px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+}
