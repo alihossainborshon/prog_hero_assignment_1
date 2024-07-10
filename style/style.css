@@ -16,6 +16,18 @@
   color: #0d1321;
 }
 
+.h4 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.p2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #e4e9ef;
+}
+
 .p {
   width: 700px;
   font-size: 16px;
@@ -218,3 +230,45 @@
   flex-direction: column;
   gap: 50px ;
 }
+
+/* ---footer---- */
+
+.img_con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.footer_img {
+  background-image: url(../image/handshake.jpg);
+  width: 900px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer_about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+}
+
+.input {
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  border-radius: 8px;
+  border: transparent;
+}
+
+.fott_btn {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border-radius: 8px;
+  border: transparent;
+}
+
