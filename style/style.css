@@ -7,6 +7,12 @@
   font-family: "Roboto Slab", serif;
 }
 
+/* ---share style */
+
+
+
+
+
 /* ---banner--- */
 
 #ban_hero {
@@ -58,4 +64,58 @@
   padding: 18px 25px;
   border-radius: 8px;
   background: rgb(13, 19, 33);
+}
+
+/* ---main start--- */
+
+#why {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+
+#why .why_h3 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+#why .why_p {
+  width: 700px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #555759;
+}
+
+#why .why_containor {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.why_containor .why_conta_la {
+  display: flex;
+  gap: 150px;
+}
+
+.read {
+  width: 400px;
+}
+
+.read .read_h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.read .read_p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555759;
+  margin-bottom: 30px;
 }
