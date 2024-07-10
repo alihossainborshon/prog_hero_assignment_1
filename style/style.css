@@ -9,9 +9,32 @@
 
 /* ---share style */
 
+.h3 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  color: #0d1321;
+}
 
+.p {
+  width: 700px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #555759;
+}
 
+.S1 {
+  background-color: #fff6f4;
+}
 
+.S2 {
+  background-color: #f2f6fe;
+}
+
+.S3 {
+  background-color: #fbffc6;
+}
 
 /* ---banner--- */
 
@@ -78,20 +101,6 @@
   margin-bottom: 70px;
 }
 
-#why .why_h3 {
-  font-size: 32px;
-  font-weight: 800;
-  text-align: center;
-}
-
-#why .why_p {
-  width: 700px;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  color: #555759;
-}
-
 #why .why_containor {
   display: flex;
   flex-flow: column;
@@ -118,4 +127,94 @@
   font-weight: 400;
   color: #555759;
   margin-bottom: 30px;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid rgb(103, 101, 101);
+}
+
+.btn a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+}
+
+/* ---My Inspiration--- */
+
+#Inspiration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 0 200px;
+  margin-bottom: 50px;
+}
+
+.mar_top {
+  margin-top: 50px;
+}
+
+.video {
+  border-radius: 16px;
+}
+
+.vid_div {
+  display: inline-block;
+  padding: 32px;
+  border: 2px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+
+/* ---------------------- */
+
+
+
+
+.skill_title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.skill_description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.skill_container {
+  display: flex;
+  gap: 60px;
+}
+
+.skill {
+  width: 300px;
+  height: 300px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+#skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.skill_hader {
+  display: flex;
+  flex-direction: column;
+  gap: 50px ;
 }
